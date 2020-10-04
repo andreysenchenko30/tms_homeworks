@@ -31,7 +31,7 @@ print(f'Количество букв в тексте: {number_of_letters}')
 print(f'Количество гласных букв в тексте: {number_of_vowels}')
 string_length = len(joined_text)
 index = 18
-while index < len(joined_text):
+while index < string_length:
     if joined_text[index].islower():
         print(f'{index}{joined_text[index].upper()}')
     else:
